@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokémon List</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div id="overlayid"></div>
+    
+    <nav class = "flex flex-jc-sb">
+      <a href="/" class="header__logo">
+        <img class="header__logo" src="images/small.jpg" alt="pokemon logo">
+       </a>
+       
+      <a href="#" id="btnHamburger" class="header__menu hide-for-desktop"> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div id="mobile-menu" class="header__links hide-for-mobile ">
+        <a href="#">Pokédex</a>
+        <a href="#">Pokémon news</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <button class="main-btn hide-for-mobile" type="button" style="background-image: url('images/pokeball.jpg'); background-size: 110%; background-position: center; background-repeat: no-repeat;">
+        <b style="position: relative; top: -8px;">Join</b> <b style="display: block; margin-top: 22px; color: black">Club</b>
+      </button>  
+    </nav>
+
+    <div id="mobile_menu" class="has-fade menu_list">
+      <a class="menu_anchor" href="#">Pokédex</a>
+      <a class="menu_anchor" href="#">Pokémon news</a>
+      <a class="menu_anchor" href="#">Blog</a>
+    </div>
+
+    <div class="under_header">
+      <h1>
+        Pokémon list
+      </h1>
+    </div>
+  </header>
+  <div class="feature__flex">
+    <ul id="pokemonList">
+    </ul>
+  </div>
+  <script src="scripts/pokeMain.js"></script>
+</body>
+</html>

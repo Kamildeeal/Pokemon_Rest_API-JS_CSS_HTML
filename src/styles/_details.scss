@@ -1,0 +1,62 @@
+.detail {
+
+    &__html {
+        background-color: $lightGrayishBlue;
+    }
+
+    &__main {
+        background-color: $lightGrayishBlue;
+    }
+    &__flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    &__btn {
+    background-color: $darkBlue;
+    width: 50;
+    height: 90px;
+    border-radius: 20px;
+    line-height: 1.2;
+    font-size: 1.6rem;
+    margin: 50px;
+    &:hover {
+        opacity: 0.85;
+        color: white;
+    }
+    }
+
+    &__btn-list{
+        display: flex;
+        background-color: $limeGreen;
+        color: black;
+        height: 90px;
+        width: 200px;
+        border-radius: 20px;
+        line-height: 1.2;
+        &:hover {
+        opacity: 0.85;
+        color: white; 
+    }
+}
+}
+
+.arrow-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#goToListButton {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

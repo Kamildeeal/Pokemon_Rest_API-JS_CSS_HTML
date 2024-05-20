@@ -1,0 +1,27 @@
+.feature {
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -125px;
+        align-items: center;
+        font-size: 1.3rem;
+        background-color: $lightGrayishBlue;
+    }
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+
+    &:hover {
+        color: $darkBlue;
+    }
+    &:visited {
+        color: $darkBlue;
+    }
+}

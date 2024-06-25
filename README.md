@@ -1,2 +1,2 @@
 # POKEMON_REST_API_v2
-Training of fetching data - html, scss, js
+Vanilla JS, CSS & SCSS - In this project I've worked with fetched data.
